@@ -1,0 +1,72 @@
+.content{
+    width:540px;
+    height:540px;
+    margin:50px auto;
+    position:relative;
+}
+.btn{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 4;
+    
+
+}
+.btn button{
+    outline:none;
+    border:none;
+    background:none;
+    cursor:pointer;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+.startBtn button{
+    background:url(./images/startGame.png);
+    background-size:100% 100%;
+    width:200px;
+    height:80px;
+    margin-left:-100px;
+    margin-top: -40px;
+}
+
+.pauseBtn button{
+    background:url(./images/start.png);
+    background-size:100% 100%;
+    width:70px;
+    height:70px;
+    margin-left:-35px;
+    margin-top: -35px;
+} 
+.pauseBtn{
+    display:none;
+}
+
+
+.snakeWrap{
+    width:500px;
+    height:500px;
+    border:20px solid #7dd9ff;
+    background:#225675;
+    position: relative;
+}
+.snakeWrap div{
+    width:20px;
+    height:20px;
+    
+}
+.snakeHead{
+    background:url(./images/snake.png);
+    background-size:cover;
+}
+.snakeBody{
+    background-color: #9ddbb1;
+	border-radius: 50%;
+
+}
+.snakeFood{
+    background:url(./images/food.png);
+    background-size:cover;
+    
+}
